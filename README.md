@@ -1,6 +1,10 @@
 # CChem
 A docker container with tools for computational chemistry.
 
+```
+docker pull redscorpse/chem:latest
+```
+
 Includes
 
 - Editor: vim with intelligense (coc) and other plugins

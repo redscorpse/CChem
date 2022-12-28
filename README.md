@@ -10,8 +10,7 @@ The Dockerfile is for being able to build the image also on ***amd64*** architec
 
 
 At the moment it includes:
-- Editor: vim with intelligense (coc) and other plugins
+- Editor: vim with intelligense ([coc](https://github.com/neoclide/coc.nvim)) and other plugins
 - Python: python3, ipython
     - pip packages: numpy, matplotlib, pandas, tensorflow, pyscf, psi4, (...)
-- Psi4 (quite complicated for building)
-
+- [Psi4](https://github.com/psi4/psi4) (quite complicated for building)

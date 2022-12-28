@@ -1,16 +1,17 @@
 # CChem
 A docker container with tools for computational chemistry.
 
+At the moment I only have the *arm64* version (from Raspberry Pi):
+
 ```
 docker pull redscorpse/chem:latest
 ```
+The Dockerfile is for being able to build the image also on ***amd64*** architectures (which could be more effective for big calculations).
 
-Includes
 
+At the moment it includes:
 - Editor: vim with intelligense (coc) and other plugins
 - Python: python3, ipython
     - pip packages: numpy, matplotlib, pandas, tensorflow, pyscf, psi4, (...)
-- Psi4
+- Psi4 (quite complicated for building)
 
-I am using it from a Raspberry Pi 4, and I *will* push the ***arm64*** container to dockerhub [link here]().
-The Dockerfile is for allowing to build the image on ***amd64*** architectures.

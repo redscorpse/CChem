@@ -1,6 +1,6 @@
 # CChem
 A docker container with tools for computational chemistry.
-<br> https://hub.docker.com/repository/docker/redscorpse/chem
+<br> https://hub.docker.com/r/redscorpse/chem
 
 I recommend placing all the files in a directory and share the display. 
 <br>It can also be used fron vscode.

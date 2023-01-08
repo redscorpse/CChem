@@ -30,9 +30,9 @@ RUN cd psi4; mkdir build; cd build
 # RUN apt install -y cmake build-essential python3
 RUN cmake ..
 RUN make -j`getconf _NPROCESSORS_ONLN`
-RUN make install
 # requieres some other packages, as errors appear:
-# RUN apt install -y libopenblas-dev
+# RUN apt install -y libeigen3-dev libopenblas-dev
+RUN make install
 # RUN pip install numpy pydantic pint
 # RUN echo 'export PATH=/root/psi4/bin:$PATH' >> ~/.zshrc
 # RUN mkdir ~/psi4Files && echo 'export PSI_SCRATCH=/home/quantum/psi4Files' >> ~/.zshrc
